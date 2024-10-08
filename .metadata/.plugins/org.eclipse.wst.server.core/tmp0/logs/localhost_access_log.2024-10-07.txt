@@ -1,0 +1,3 @@
+127.0.0.1 - - [07/Oct/2024:10:58:01 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [07/Oct/2024:10:58:47 +0530] "GET /Ecommerce-website/views/customer/login.jsp HTTP/1.1" 200 1299
+0:0:0:0:0:0:0:1 - - [07/Oct/2024:10:58:47 +0530] "GET /favicon.ico HTTP/1.1" 404 763
