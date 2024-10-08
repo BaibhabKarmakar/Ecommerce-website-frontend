@@ -2,53 +2,11 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>home | Ecommerce-website</title>
-    <style>
-        * {
-            margin : 0;
-            padding : 0;
-            font-family : system-ui;
-        }
-        nav {
-            height : 90px;
-            width : 100%;
-            background-color : rgb(220, 220, 220);
-        }
-        .navbar {
-            height : 100%;
-            max-width : 1400px;
-            margin : 0px auto;
-            display : flex;
-            align-items : center;
-            justify-content : space-between;
-        }
-        .logo {
-            font-size : 30px;
-        }
-        .sections button {
-            margin : 0 10px;
-            padding : 10px 20px;
-            border-radius : 10px;
-            border : none;
-            outline : none;
-        }
-        .sections button:hover {
-            border : 1px solid grey;
-        }
-    </style>
-  </head>
-  <body>
-    <nav>
-        <div class="navbar">
-            <div class="logo">Ecommerce-website</div>
-            <div class="sections">
-              <button>About us</button>
-              <button>Profile</button>
-              <button>Your cart</button>
-            </div>
-        </div>
-    </nav>
-  </body>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
 </html>

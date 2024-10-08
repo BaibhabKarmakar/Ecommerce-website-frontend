@@ -1,5 +1,5 @@
-<!-- <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%> -->
+  <!-- <%@ page language="java" contentType="text/html; charset=UTF-8"
+      pageEncoding="UTF-8"%> -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -11,163 +11,189 @@
     <nav>
       <div class="navbar">
         <div class="logo">Ecommerce-website</div>
+        <div class="search-bar">
+          <input type="text" placeholder="search product">
+          <button>Search</button>
+        </div>
         <div class="sections">
           <button>About us</button>
-          <button>Your cart</button>
-          <button id="profile-btn">Profile</button>
+          <button class="cart">Your cart <img src="../../images/cart.svg" alt=""></button>
+          <button class="profile" id="profile-btn">Profile <img src="../../images/profile.svg"></button>
         </div>
       </div>
     </nav>
+    
 
     <div class="profile-form" id="profile-form">
-      <h2>Profile Information</h2>
-      <label for="name">Name:</label>
-      <input type="text" id="name" required />
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" required />
-      
-      <label for="address">Address:</label>
-      <input type="text" id="address" required />
-      
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" required />
-      
+      <h2>Hey name ! See your Profile</h2>
+      <div class="avatar"><img src="../../images/avatar.jpg" alt=""></div>
+      <div> <b>Name :</b> Undefined</div>
+      <div> <b>Email-id :</b> Undefined</div>
+      <div> <b>Address :</b> Undefined</div>
+      <div> <b>Phone number :</b> Undefined</div>
       <button id="update-btn">Update</button>
     </div>
-    
     <div class="welcome-msg">
-      <div>Welcome Baibhab Karmakar !</div>
-      <div>to the E-commerce Website</div>
+      Welcome name! to our Ecommerce-website
+    </div>
+    <div class="big-banner">
+      <img src="../../images/banner1.jpg" alt="">
     </div>
 
     <div class="collection">
-      <div class="msg">Best Deals</div>
-      <button>See all collections</button>
+      <div class="msg">Our Products</div>
     </div>
     <div class="grid-container">
       <div class="grid-element">
-        <a href="https://www.google.com"><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
       <div class="grid-element">
         <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
+        <p>Category : none</p>
       </div>
     </div>
     <div class="breaker"></div>
     <div class="footer">
         <div class="company-name">
-            E-commerce Website
+            <p>E-commerce Website</p>
+            <div>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio ipsam harum, ipsum, iste architecto fugit temporibus ut ea suscipit sunt. Saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dolor soluta ipsum ab eveniet dolorum blanditiis maxime eos quas eum earum magni similique. Reprehenderit sint . </p>
+            </div>
         </div>
         <div class="options">
             <b>COMPANY</b>
-            <button>Home</button>
-            <button>About us</button>
-            <button>Delivery</button>
-            <button>Privacy policy</button>
+            <a href="">Home</a>
+            <a href="">About us</a>
+            <a href="">Delivery</a>
+            <a href="">Privacy policy</a>
         </div>
         <div class="contact-details">
             <b>GET IN TOUCH</b>
-            <p>Mob no : +917603037074</p>
-            <p>Email id : baibhabkarmakar29@gmail.com</p>
+            <p><b>Team members</b></p>
+            <a href="https://github.com/BaibhabKarmakar">Baibhab Karmakar</a>
+            <a href="https://github.com/Swarnotaj003">Swarnotaj Kundu</a>
+            <a href="">Sonu Singh Patar</a>
+            <a href="">Arco Das</a>
+            <a href="">Tarif</a>
         </div>
     </div>
     <div class="copyrights">
