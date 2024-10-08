@@ -4,8 +4,8 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>home | Ecommerce-website</title>
-    <link rel="stylesheet" href="../../css/home.css">
+    <title>All collections | Ecommerce-website</title>
+    <link rel="stylesheet" href="../../css/collection.css" />
   </head>
   <body>
     <nav>
@@ -14,40 +14,128 @@
         <div class="sections">
           <button>About us</button>
           <button>Your cart</button>
-          <button id="profile-btn">Profile</button>
+          <button id="profile-btn" class="profile-toggle-btn">Profile</button>
         </div>
       </div>
     </nav>
-
-    <div class="profile-form" id="profile-form">
-      <h2>Profile Information</h2>
-      <label for="name">Name:</label>
-      <input type="text" id="name" required />
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" required />
-      
-      <label for="address">Address:</label>
-      <input type="text" id="address" required />
-      
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" required />
-      
-      <button id="update-btn">Update</button>
+    <div class="search-bar">
+      <input type="text" placeholder="Search your product" />
+      <button>Search</button>
     </div>
-    
-    <div class="welcome-msg">
-      <div>Welcome Baibhab Karmakar !</div>
-      <div>to the E-commerce Website</div>
-    </div>
-
     <div class="collection">
-      <div class="msg">Best Deals</div>
-      <button>See all collections</button>
+      <div class="msg">Our all Collection</div>
     </div>
+
     <div class="grid-container">
       <div class="grid-element">
-        <a href="https://www.google.com"><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <a href="https://www.google.com"
+          ><img src="../../images/Shirt_image.jpg" alt="Item 1"
+        /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
+        <p>Item name</p>
+        <p>price : 50$(USD)</p>
+      </div>
+      <div class="grid-element">
+        <a href=""><img src="../../images/Shirt_image.jpg" alt="Item 1" /></a>
         <p>Item name</p>
         <p>price : 50$(USD)</p>
       </div>
@@ -152,6 +240,7 @@
         <p>price : 50$(USD)</p>
       </div>
     </div>
+
     <div class="breaker"></div>
     <div class="footer">
         <div class="company-name">
@@ -174,7 +263,5 @@
         <div class="breaker2"></div>
         <div>Copyright 2024 © com.example.dev - All Right Reserved.</div>
     </div>
-
-    <script src="home.js"></script>
   </body>
 </html>
