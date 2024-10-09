@@ -189,11 +189,11 @@
         <div class="contact-details">
             <b>GET IN TOUCH</b>
             <p><b>Team members</b></p>
+            <a href="https://github.com/arco02">Arco Das</a>
             <a href="https://github.com/BaibhabKarmakar">Baibhab Karmakar</a>
-            <a href="https://github.com/Swarnotaj003">Swarnotaj Kundu</a>
             <a href="">Sonu Singh Patar</a>
-            <a href="">Arco Das</a>
-            <a href="">Tarif</a>
+            <a href="https://github.com/Swarnotaj003">Swarnotaj Kundu</a>
+            <a href="https://github.com/TARIFUDDIN">Syed Tarifuddin ahmed</a>
         </div>
     </div>
     <div class="copyrights">
