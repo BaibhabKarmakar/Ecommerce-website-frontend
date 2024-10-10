@@ -36,8 +36,9 @@ nav {
   align-items: center;
   gap: 5px;
 }
+
 .profile img {
-  height : 18px;
+  height: 18px;
 }
 
 .sections button:hover {
@@ -103,8 +104,9 @@ nav {
   align-items: center;
   gap: 5px;
 }
+
 .cart img {
-  height : 18px;
+  height: 18px;
 }
 
 .cart:hover {
@@ -163,7 +165,7 @@ nav {
 .welcome-msg {
   text-align: center;
   font-size: 25px;
-  font-weight : 700;
+  font-weight: 700;
 }
 
 .big-banner {
@@ -289,4 +291,4 @@ nav {
 
 .description {
   font-size: 15px;
-}
+} 
