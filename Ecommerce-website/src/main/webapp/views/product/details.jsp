@@ -37,12 +37,17 @@
       <button id="update-btn">Update</button>
     </div>
 
-    <div class="container-product">
-      <h2>Product Details :</h2>
-      <div class="image-container">
-        <img src="../../images/Shirt_image.jpg" />
+    <div class="product-container">
+      <div class="container-product-image">
+        <h2>Product Image :</h2>
+        <div class="image-container">
+          <img src="../../images/Shirt_image.jpg" />
+        </div>
       </div>
-      <div class="product-details">
+
+      <div class="container-product-details">
+        <h2>Product Info :</h2>
+        <br>
         <div class="name">
           <div><b>Name : </b></div>
           <div>Shirt</div>
@@ -58,6 +63,11 @@
       </div>
     </div>
 
+
+    <div class="buttons">
+      <button>Continue Shopping</button>
+      <button>Back to the Home page</button>
+    </div>
     <div class="breaker"></div>
     <div class="footer">
       <div class="company-name">
