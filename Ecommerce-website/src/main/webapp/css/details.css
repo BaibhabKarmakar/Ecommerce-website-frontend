@@ -219,7 +219,6 @@ nav {
 .buttons {
     display : flex;
     justify-content : center;
-    gap : 60px;
     padding : 50px 0px;
 }
 .buttons button {

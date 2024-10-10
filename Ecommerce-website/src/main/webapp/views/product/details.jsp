@@ -66,7 +66,6 @@
 
     <div class="buttons">
       <button>Continue Shopping</button>
-      <button>Back to the Home page</button>
     </div>
     <div class="breaker"></div>
     <div class="footer">
