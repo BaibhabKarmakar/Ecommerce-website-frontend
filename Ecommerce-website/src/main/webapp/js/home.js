@@ -2,6 +2,7 @@
 const profileBtn = document.getElementById("profile-btn");
 const profileForm = document.getElementById("profile-form");
 const updateBtn = document.getElementById("update-btn");
+const cartBtn = document.getElementById("cart-btn");
 
 // Toggle the profile form when the button is clicked
 profileBtn.addEventListener("click", () => {
@@ -19,4 +20,8 @@ updateBtn.addEventListener("click", () => {
     setTimeout(() => {
         profileForm.classList.remove("open", "slide-out");
     }, 300); // Match the duration of the CSS transition
+});
+
+cartBtn.addEventListener("click", () => {
+    window.location.href = "/Ecommerce-website/views/shoppingcart/cart.jsp";
 });
