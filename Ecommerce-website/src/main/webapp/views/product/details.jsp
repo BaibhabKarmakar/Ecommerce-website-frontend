@@ -104,6 +104,6 @@
       <div>Copyright 2024 © com.example.dev - All Right Reserved.</div>
     </div>
 
-    <script src="home.js"></script>
+    <script src="../../js/home.js"></script>
   </body>
 </html>
