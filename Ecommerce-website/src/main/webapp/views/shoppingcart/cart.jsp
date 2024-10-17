@@ -96,16 +96,12 @@
 			</tbody>
 		</table>
 		<div class="checkout">
-			<h3>Total Price :</h3>
-			<p class="item-on-cart">Blue Shirt : <span class="price">50$(USD)</span></p>
-            <p class="item-on-cart">Blue Shirt : <span class="price">100$(USD)</span></p>
-            <p class="item-on-cart">Blue Shirt : <span class="price">50$(USD)</span></p>
-            <p class="total">Total : 200$</p>
+			<h3>Total Price : 200$</h3>
 		</div>
 	</div>
 
 	<div class="button">
-		<button>Continue Shopping!</button>
+		<button onclick="window.location.href='../product/home.jsp'">Continue Shopping!</button>
 		<button>Order Now</button>
 	  </div>
 	<div class="breaker"></div>
