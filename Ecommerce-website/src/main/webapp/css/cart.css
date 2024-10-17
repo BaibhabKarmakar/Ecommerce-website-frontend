@@ -220,7 +220,23 @@ nav {
 	background-color: gray;
 	margin: 0px 200px;
 }
-
+.button {
+    display : flex;
+    justify-content : center;
+    padding : 50px 0px;
+	gap : 20px
+}
+.button button {
+    padding : 10px 20px;
+    outline : none;
+    border : 1px solid grey;
+    border-radius : 10px;
+}
+.button button:hover {
+    padding : 10px 25px;
+    background-color : linen;
+    transition : 0.5s ease;
+}
 .cart-container {
 	display: flex;
 	flex-direction: column;
@@ -245,7 +261,7 @@ nav {
 	gap: 10px;
 }
 
-.item-price, .item-qty {
+.item-price,.item-total-price , .item-qty {
 	width: 150px;
 	display: flex;
 	justify-content: center;
@@ -257,6 +273,11 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.buttons {
+	display : flex;
+	flex-direction : column;
+	gap : 10px;
 }
 
 .delete-item {

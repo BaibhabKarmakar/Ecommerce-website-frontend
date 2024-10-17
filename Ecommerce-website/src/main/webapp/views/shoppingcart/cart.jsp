@@ -55,6 +55,7 @@
 					<th scope="col" class="item-name">Item Name</th>
 					<th scope="col" class="item-price">Price</th>
 					<th scope="col" class="item-qty">Quantity</th>
+					<th scope="col" class="item-total-price">Total Price</th>
 					<th scope="col" class="delete-action">Actions</th>
 				</tr>
 			</thead>
@@ -65,8 +66,10 @@
                         Blue Shirt
                     </td>
                     <td class="item-price">50$(USD)</td>
-                    <td class="item-qty"><input type="number" value="1" min="1" class="quantity"></td>
-                    <td class="delete-action"><button class="delete-item">Delete This item</button></td>
+                    <td class="item-qty">1</td>
+                    <td class="item-total-price">50$(USD)</td>
+                    <td class="delete-action"><div class="buttons"><button class="delete-item">Delete Item</button>
+						<button class="delete-item">Add more</button></div></td>
 				</tr>
 				<tr>
 			    	<td class="item-name">
@@ -74,8 +77,10 @@
                         Blue Shirt
                     </td>
                     <td class="item-price">50$(USD)</td>
-                    <td class="item-qty"><input type="number" value="1" min="1" class="quantity"></td>
-                    <td class="delete-action"><button class="delete-item">Delete This item</button></td>
+                    <td class="item-qty">2</td>
+                    <td class="item-total-price">100$(USD)</td>
+                    <td class="delete-action"><div class="buttons"><button class="delete-item">Delete Item</button>
+						<button class="delete-item">Add more</button></div></td>
 				</tr>
 				<tr>
 			    	<td class="item-name">
@@ -83,19 +88,26 @@
                         Blue Shirt
                     </td>
                     <td class="item-price">50$(USD)</td>
-                    <td class="item-qty"><input type="number" value="1" min="1" class="quantity"></td>
-                    <td class="delete-action"><button class="delete-item">Delete This item</button></td>
+                    <td class="item-qty">1</td>
+                    <td class="item-total-price">50$(USD)</td>
+                    <td class="delete-action"><div class="buttons"><button class="delete-item">Delete Item</button>
+						<button class="delete-item">Add more</button></div></td>
 				</tr>
 			</tbody>
 		</table>
 		<div class="checkout">
 			<h3>Total Price :</h3>
 			<p class="item-on-cart">Blue Shirt : <span class="price">50$(USD)</span></p>
+            <p class="item-on-cart">Blue Shirt : <span class="price">100$(USD)</span></p>
             <p class="item-on-cart">Blue Shirt : <span class="price">50$(USD)</span></p>
-            <p class="item-on-cart">Blue Shirt : <span class="price">50$(USD)</span></p>
-            <p class="total">Total : 150$</p>
+            <p class="total">Total : 200$</p>
 		</div>
 	</div>
+
+	<div class="button">
+		<button>Continue Shopping!</button>
+		<button>Order Now</button>
+	  </div>
 	<div class="breaker"></div>
 	<div class="footer">
 		<div class="company-name">
