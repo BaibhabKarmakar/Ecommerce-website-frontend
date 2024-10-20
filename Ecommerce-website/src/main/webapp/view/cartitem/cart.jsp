@@ -9,7 +9,8 @@
   </head>
   <body>
     <%@ include file="header.jsp" %>
-    <div class="cart-owner">Owner's Cart :</div>
+    <div class="container" style="margin-top : 100px;">
+      <div class="cart-owner">Owner's Cart :</div>
     <div class="cart-address">Delivery Address : Kolkata, India</div>
     <div class="cart-container">
       <table class="cart-items">
@@ -93,6 +94,8 @@
       </button>
       <button>Order Now</button>
     </div>
+    </div>
+    
 	<%@ include file="footer.jsp" %>
 
     <script src="../../js/home.js"></script>

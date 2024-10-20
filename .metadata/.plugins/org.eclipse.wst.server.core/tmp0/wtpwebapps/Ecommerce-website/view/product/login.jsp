@@ -27,7 +27,7 @@
           <button type="submit" class="btn">Log in</button>
         </div>
         <div class="extra-links">
-          <a href="signup.jsp">New to this Website?</a>
+          <a href="">New to this Website?</a>
           <a href="signup.jsp">Create account</a>
         </div>
       </form>

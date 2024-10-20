@@ -23,3 +23,5 @@ C:\Users\baibh\Desktop\E-commerce-website\.metadata\.plugins\org.eclipse.jst.jsp
 \Ecommerce-website\src\main\java
 C:\Users\baibh\Desktop\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2896266567.index
 \Ecommerce-Wesite\src\main\java
+C:\Users\baibh\Desktop\E-commerce-website\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3668737112.index
+\Ecommerce-website\src\main\java
