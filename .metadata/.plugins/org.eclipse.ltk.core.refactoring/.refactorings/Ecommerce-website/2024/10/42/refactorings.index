@@ -1,0 +1,8 @@
+1729307144658	Move file
+1729308426308	Move 'css' to 'static'
+1729308429661	Move 'images' to 'static'
+1729308434909	Move 'js' to 'static'
+1729308439636	Move 'templates' to 'static'
+1729308486906	Rename resource 'shoppingcart'
+1729308530108	Move 'footer.jsp' to 'templates'
+1729308532095	Move 'header.jsp' to 'templates'
